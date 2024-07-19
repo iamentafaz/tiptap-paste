@@ -1,18 +1,14 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
-  <TiptapEditor />
+  <text-editor />
 </template>
 
 <script>
-  // import HelloWorld from "./components/HelloWorld.vue";
-  import TiptapEditor from './components/TipTapEditor.vue';
+  import TextEditor from './components/TextEditor.vue';
 
   export default {
     name: 'App',
     components: {
-      // HelloWorld,
-      TiptapEditor,
+      TextEditor,
     },
   };
 </script>
